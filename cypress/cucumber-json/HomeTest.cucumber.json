@@ -1,0 +1,107 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I want open the Site and verify  links in Home Page",
+    "line": 1,
+    "id": "i-want-open-the-site-and-verify--links-in-home-page",
+    "tags": [],
+    "uri": "HomeTest.feature",
+    "elements": [
+      {
+        "id": "i-want-open-the-site-and-verify--links-in-home-page;verify-content-in-home-page-after-login",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify content in Home Page After Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Website",
+            "result": {
+              "status": "passed",
+              "duration": 1610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Login into the site",
+            "result": {
+              "status": "passed",
+              "duration": 568000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "HomePageLinks"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Offers"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Orders"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Favourites"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "iPhone 12"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Pixel 2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "One Plus 8"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "One Plus 6T"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify links in Home Page of the Site",
+            "result": {
+              "status": "passed",
+              "duration": 859000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Logout From the Site",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
