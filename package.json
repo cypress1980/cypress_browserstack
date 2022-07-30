@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run:non-headless": "cypress open",
+    "run:headless": "cypress run"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^9.7.0",
-    "multiple-cucumber-html-reporter": "^1.21.5"
+    "cypress": "^9.7.0"
   },
   "devDependencies": {
     "cypress-cucumber-preprocessor": "^4.3.1",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^1.21.5"
   },
   "cypress-cucumber-preprocessor": {
     "cucumberJson": {

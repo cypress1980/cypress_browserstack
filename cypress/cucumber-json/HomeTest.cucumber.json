@@ -22,7 +22,7 @@
             "name": "I navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 1610000000
+              "duration": 1675000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Login into the site",
             "result": {
               "status": "passed",
-              "duration": 568000000
+              "duration": 572000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "Verify links in Home Page of the Site",
             "result": {
               "status": "passed",
-              "duration": 859000000
+              "duration": 884000000
             }
           },
           {
@@ -97,7 +97,7 @@
             "name": "Logout From the Site",
             "result": {
               "status": "passed",
-              "duration": 153000000
+              "duration": 199000000
             }
           }
         ]
