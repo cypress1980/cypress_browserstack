@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "username": "ronneliu1",
+    "access_key": "zhHcyKPpkmzh1vuJfM4C"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "firefox",
+      "os": "OS X Mojave",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./cypress.json",
+    "project_name": "Cypress Browserstack",
+    "build_name": "Cypress Browserstack Cucumber Test",
+    "parallels": "2",
+    "npm_dependencies": {
+      "cypress-cucumber-preprocessor": "4.3.1"
+    },
+    "headless": true,
+    "package_config_options": {
+      "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
+      }
+    }
+  },
+  "connection_settings": {
+    "local": false,
+    "local_identifier": null,
+    "local_mode": null,
+    "local_config_file": null
+  },
+  "disable_usage_reporting": false
+}
