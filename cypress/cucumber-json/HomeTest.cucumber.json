@@ -22,17 +22,7 @@
             "name": "I navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 1675000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "Login into the site",
-            "result": {
-              "status": "passed",
-              "duration": 572000000
+              "duration": 1162000000
             }
           },
           {
@@ -83,21 +73,11 @@
               }
             ],
             "keyword": "Then ",
-            "line": 8,
+            "line": 7,
             "name": "Verify links in Home Page of the Site",
             "result": {
               "status": "passed",
-              "duration": 884000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 17,
-            "name": "Logout From the Site",
-            "result": {
-              "status": "passed",
-              "duration": 199000000
+              "duration": 304000000
             }
           }
         ]

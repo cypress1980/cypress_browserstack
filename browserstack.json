@@ -1,7 +1,7 @@
 {
   "auth": {
-    "username": "ronneliu1",
-    "access_key": "zhHcyKPpkmzh1vuJfM4C"
+    "username": "jarryrobert_xpRuaW",
+    "access_key": "tMZ7xazDR3UZKnPRmEmy"
   },
   "browsers": [
     {
@@ -17,8 +17,8 @@
   ],
   "run_settings": {
     "cypress_config_file": "./cypress.json",
-    "project_name": "Cypress Browserstack",
-    "build_name": "Cypress Browserstack Cucumber Test",
+    "project_name": "Cypress Cucumber",
+    "build_name": "Cypress Cucumber Test",
     "parallels": "2",
     "npm_dependencies": {
       "cypress-cucumber-preprocessor": "4.3.1"
